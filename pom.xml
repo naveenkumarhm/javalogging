@@ -50,8 +50,8 @@
                <exclusion>
                   <groupId>org.springframework.boot</groupId>
                   <artifactId>spring-boot-starter-logging</artifactId>
-               <exclusions>
-            <exclusion>
+               <exclusion>
+            <exclusions>
         </dependency>
 
           <dependency>

@@ -11,7 +11,7 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Checking the fargate logging with Java application";
+		return "Checking the fargate logging with Java application with log4j2";
 	}
 
 	public static void main(String[] args) {

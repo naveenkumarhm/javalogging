@@ -13,9 +13,9 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
-		log.info("testing");
-
+		
 		return "Checking the fargate logging with Java application with log4j2";
+		log.info("testing");
 		// for(int i=0; i<= 8000; i++) {
 		// 	//some business logic
 		// 	//In each iteration we are printing single line logger 

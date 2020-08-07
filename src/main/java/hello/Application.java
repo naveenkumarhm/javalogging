@@ -13,6 +13,7 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
+		log.info("testing");
 
 		return "Checking the fargate logging with Java application with log4j2";
 		// for(int i=0; i<= 8000; i++) {

@@ -15,7 +15,11 @@ public class Application {
 	public String home() {
 		
 		
-		log.error("*****************test");
+		log.trace("A TRACE Message");
+        log.debug("A DEBUG Message");
+        log.info("An INFO Message");
+        log.warn("A WARN Message");
+        log.error("An ERROR Message");
 		return "Checking the fargate logging with Java application with log4j2";
 	}
 

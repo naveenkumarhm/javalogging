@@ -15,13 +15,6 @@ public class Application {
 	public String home() {
 		
 		return "Checking the fargate logging with Java application with log4j2";
-		log.info("testing");
-		// for(int i=0; i<= 8000; i++) {
-		// 	//some business logic
-		// 	//In each iteration we are printing single line logger 
-		// 	log.info("TREPP Analytics Date is NULL for Instrument");
-		// 	}
-
 	}
 
 	public static void main(String[] args) {

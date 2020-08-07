@@ -15,6 +15,7 @@ public class Application {
 	public String home() {
 		
 		return "Checking the fargate logging with Java application with log4j2";
+		log.error("*****************test");
 	}
 
 	public static void main(String[] args) {

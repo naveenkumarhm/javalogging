@@ -23,7 +23,7 @@ public class Application {
         log.info("An INFO Message");
         log.warn("A WARN Message");
         log.error("An ERROR Message");
-		return "Checking the fargate logging with Java application with log4j2";
+		return "Checking the fargate logging with Java application using log4j2";
 	}
 
 	public static void main(String[] args) {
